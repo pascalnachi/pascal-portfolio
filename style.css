@@ -1,0 +1,57 @@
+
+.gradient-background {
+    background: linear-gradient(300deg, grey, #d3d3d3,  #f5f5dc);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .backcolour1{
+    background-color: #f5f5dc;
+  }
+
+#hero > div > div > div.col-10.col-sm-8.col-lg-6 > img{
+  border-radius: 40px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+
+}
+span{
+  font-weight: bold;
+}
+
+
+.backcolour2{
+  background-color: #d3d3d3;
+}
+
+.responsive-image{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+}
+
+ footer{
+  text-align: center;
+ }
+ footer  p {
+  margin-bottom: 0;
+ }
+ section{
+  
+  scroll-margin-top: 60px;
+ 
+ }
